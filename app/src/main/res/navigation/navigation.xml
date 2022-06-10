@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/articleListFragment">
+
+    <fragment
+        android:id="@+id/articleListFragment"
+        android:name="xyz.teamgravity.containertransformtransitionfab.presentation.fragment.ArticleListFragment"
+        tools:layout="@layout/fragment_article_list" />
+    <fragment
+        android:id="@+id/favoriteListFragment"
+        android:name="xyz.teamgravity.containertransformtransitionfab.presentation.fragment.FavoriteListFragment"
+        tools:layout="@layout/fragment_favorite_list" />
+    <fragment
+        android:id="@+id/articleAddFragment"
+        android:name="xyz.teamgravity.containertransformtransitionfab.presentation.fragment.ArticleAddFragment"
+        tools:layout="@layout/fragment_article_add" />
+    <action
+        android:id="@+id/action_global_articleAddFragment"
+        app:destination="@id/articleAddFragment" />
+</navigation>
