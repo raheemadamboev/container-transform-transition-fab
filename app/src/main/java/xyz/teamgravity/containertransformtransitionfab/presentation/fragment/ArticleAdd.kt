@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import xyz.teamgravity.containertransformtransitionfab.databinding.FragmentArticleAddBinding
 
-class ArticleAddFragment : Fragment() {
+class ArticleAdd : Fragment() {
 
     private var _binding: FragmentArticleAddBinding? = null
     private val binding get() = _binding!!
