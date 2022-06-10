@@ -4,4 +4,7 @@
     <!-- Main -->
     <string name="articles">Articles</string>
     <string name="favorites">Favorites</string>
+
+    <!-- ArticleAdd -->
+    <string name="add_article">Add article</string>
 </resources>
